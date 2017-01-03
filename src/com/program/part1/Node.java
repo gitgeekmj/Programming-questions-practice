@@ -1,4 +1,4 @@
-package com.program.test;
+package com.program.part1;
 
 public class Node {
 	public int value;
