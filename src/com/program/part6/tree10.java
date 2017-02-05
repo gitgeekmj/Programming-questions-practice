@@ -10,31 +10,35 @@ public class tree10 {
 		TreeNode A4 = new TreeNode(4);
 		TreeNode A5 = new TreeNode(5);
 		TreeNode A6 = new TreeNode(6);
-		A4.left = A2;
-		A2.left = A6;
-		A2.right = A3;
-		A4.right = A1;
-		A1.left = A5;
+		A3.left = A2;
+		A2.left = A1;
+		A2.right = A4;
+		A3.right = A6;
+		A6.left = A5;
 		tree10 tr = new tree10();
-		System.out.println(tr.findError(A4));
+		System.out.println(tr.findError(A3));
 	}
     public int[] findError(TreeNode root) {
         ArrayList<Integer> arr = new ArrayList<Integer>();
         int[] num = new int[2];
-        int j = 0;
+        int j = 1;
+        int temp = 0;
         midOrder(root,arr);
         for(int i = 0; i < arr.size() - 1; i++){
         	if(arr.get(i) > arr.get(i+1)){
-        		num[1] = arr.get(i+1);
-        		if(j == 0){
-        			num[0] = arr.get(i);
+        		if(j == 1){
+        			num[1] = arr.get(i);
+        			temp = i;
+        		}
+        		if(j == 2){
+        			num[0] = arr.get(i+1);
         		}
         		j++;
         	}
         }
-        int temp = num[0];
-        num[0] = num[1];
-        num[1] = temp;
+        if(j == 2){
+        	num[0] = arr.get(temp+1);
+        }
         return num;
     }
     public void midOrder(TreeNode root,ArrayList<Integer> arr){
