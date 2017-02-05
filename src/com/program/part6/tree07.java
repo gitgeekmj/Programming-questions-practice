@@ -1,6 +1,6 @@
 package com.program.part6;
 
-public class tree7 {
+public class tree07 {
 	/**
 	 * 满二叉树判断
 	 * @param args
@@ -19,7 +19,7 @@ public class tree7 {
 		A1.right = A5;
 		A5.left = A6;
 		A5.right = A7;
-		tree7 tr = new tree7();
+		tree07 tr = new tree07();
 		System.out.println(tr.chk(A1));
 	}
     public boolean chk(TreeNode root) {

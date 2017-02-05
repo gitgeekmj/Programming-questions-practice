@@ -3,7 +3,7 @@ package com.program.part6;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-public class tree3 {
+public class tree03 {
     public int[][] printTree(TreeNode root) {
         LinkedList<TreeNode> q = new LinkedList<TreeNode>();
         ArrayList<Integer> arr1 = new ArrayList<Integer>();

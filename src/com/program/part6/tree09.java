@@ -2,13 +2,13 @@ package com.program.part6;
 
 import java.util.ArrayList;
 
-public class tree9 {
+public class tree09 {
 	/**
 	 * 有关折纸
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		tree9 tr = new tree9();
+		tree09 tr = new tree09();
 		tr.foldPaper(3);
 	}
     public String[] foldPaper(int n) {

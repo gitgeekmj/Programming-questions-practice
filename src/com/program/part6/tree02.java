@@ -3,7 +3,7 @@ package com.program.part6;
 import java.util.ArrayList;
 import java.util.Stack;
 
-public class tree2 {
+public class tree02 {
     public int[][] convert(TreeNode root) {
     	ArrayList<Integer> arr = new ArrayList<Integer>();
     	if(root != null){

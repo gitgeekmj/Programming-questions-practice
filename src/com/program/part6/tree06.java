@@ -2,7 +2,7 @@ package com.program.part6;
 
 import java.util.ArrayList;
 
-public class tree6 {
+public class tree06 {
 	/**
 	 * 搜索二叉树判断实现
 	 * @param args
@@ -19,7 +19,7 @@ public class tree6 {
 		A2.right = A4;
 		A1.right = A5;
 		A5.left = A6;
-		tree6 tr = new tree6();
+		tree06 tr = new tree06();
 		System.out.println(tr.chk(A1));
 	}
     public boolean chk(TreeNode root) {

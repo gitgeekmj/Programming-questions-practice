@@ -1,6 +1,6 @@
 package com.program.part6;
 
-public class tree4 {
+public class tree04 {
     public String toString(TreeNode root) {
     	if(root == null){
     		return "#!";

@@ -1,6 +1,6 @@
 package com.program.part6;
 
-public class tree5 {
+public class tree05 {
 	public static void main(String[] args) {
 		TreeNode A1 = new TreeNode(132);
 		TreeNode A2 = new TreeNode(11);
@@ -13,7 +13,7 @@ public class tree5 {
 		A2.right = A4;
 		A1.right = A5;
 		A5.left = A6;
-		tree5 tr = new tree5();
+		tree05 tr = new tree05();
 		System.out.println(tr.check(A1));
 	}
     public boolean check(TreeNode root) {

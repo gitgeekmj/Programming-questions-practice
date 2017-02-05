@@ -2,7 +2,7 @@ package com.program.part6;
 
 import java.util.LinkedList;
 
-public class tree8 {
+public class tree08 {
 	/**
 	 * 完全二叉树的判断
 	 * @param args
@@ -19,7 +19,7 @@ public class tree8 {
 		A3.left = A4;
 		A1.right = A5;
 		A5.left = A6;
-		tree8 tr = new tree8();
+		tree08 tr = new tree08();
 		System.out.println(tr.chk(A1));
 	}
     public boolean chk(TreeNode root) {

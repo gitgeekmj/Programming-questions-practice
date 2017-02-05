@@ -2,7 +2,7 @@ package com.program.part6;
 
 import java.util.ArrayList;
 
-public class tree1 {
+public class tree01 {
 	public static void main(String[] args) {
 		TreeNode A1 = new TreeNode(132);
 		TreeNode A2 = new TreeNode(11);
@@ -15,7 +15,7 @@ public class tree1 {
 		A2.right = A4;
 		A1.right = A5;
 		A5.left = A6;
-		tree1 tr = new tree1();
+		tree01 tr = new tree01();
 		tr.convert(A1);
 		
 	}
