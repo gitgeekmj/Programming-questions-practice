@@ -28,6 +28,11 @@ public class list1 {
     	}
     	list.next = head;
     	ListNode temp = head;
+    	if(ins.val > list.val){
+    		list.next = ins;
+    		ins.next = head;
+    		return head;
+    	}
     	for(int i = 0; i < nxt.length; i++){
     		if(ins.val <= head.val){
     			list.next = ins;
