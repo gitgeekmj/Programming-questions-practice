@@ -1,6 +1,6 @@
 package com.program.part7;
 
-public class list8 {
+public class list08 {
 	public static void main(String[] args) {
 		RandomListNode l1 = new RandomListNode(1);
 		RandomListNode l2 = new RandomListNode(2);
@@ -20,7 +20,7 @@ public class list8 {
 		l1.random = l5;
 		l3.random = l8;
 		l5.random = l1;
-		list8 list = new list8();
+		list08 list = new list08();
 		list.Clone(l1);
 	}
     public RandomListNode Clone(RandomListNode pHead){

@@ -1,6 +1,6 @@
 package com.program.part7;
 
-public class list6 {
+public class list06 {
 	public static void main(String[] args) {
 		ListNode l1 = new ListNode(1);
 		ListNode l2 = new ListNode(2);
@@ -17,7 +17,7 @@ public class list6 {
 		l5.next = l6;
 		l6.next = l7;
 		l7.next = l8;
-		list6 list = new list6();
+		list06 list = new list06();
 		list.clear(l1, 2);
 	}
 

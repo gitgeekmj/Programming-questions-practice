@@ -2,7 +2,7 @@ package com.program.part7;
 
 import java.util.ArrayList;
 
-public class list5 {
+public class list05 {
 	public static void main(String[] args) {
 		ListNode l1 = new ListNode(1);
 		ListNode l2 = new ListNode(2);
@@ -19,7 +19,7 @@ public class list5 {
 		l5.next = l6;
 		l6.next = l7;
 		l7.next = l8;
-		list5 list = new list5();
+		list05 list = new list05();
 		list.inverse(l1, 3);
 	}
     public ListNode inverse(ListNode head, int k) {

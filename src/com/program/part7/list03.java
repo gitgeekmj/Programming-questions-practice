@@ -2,7 +2,7 @@ package com.program.part7;
 
 import java.util.ArrayList;
 
-public class list3 {
+public class list03 {
 	public static void main(String[] args) {
 		ListNode l1 = new ListNode(360);
 		ListNode l2 = new ListNode(220);
@@ -13,7 +13,7 @@ public class list3 {
 		l2.next = l3;
 		// l3.next = l4;
 		// l4.next = l5;
-		list3 list = new list3();
+		list03 list = new list03();
 		list.listDivide3(l1, 2);
 	}
 

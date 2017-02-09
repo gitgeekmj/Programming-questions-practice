@@ -1,10 +1,10 @@
 package com.program.part7;
 
-public class list1 {
+public class list01 {
 	public static void main(String[] args) {
 		int[] A = {1,3,4,5,7};
 		int[] nxt = {1,2,3,4,0};
-		list1 list = new list1();
+		list01 list = new list01();
 		list.insert2(A,nxt,2);
 	}
 	/**

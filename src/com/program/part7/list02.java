@@ -1,6 +1,6 @@
 package com.program.part7;
 
-public class list2 {
+public class list02 {
     public boolean removeNode(ListNode pNode) {
         if(pNode.next == null || pNode == null){
         	return false;

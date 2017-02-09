@@ -2,7 +2,7 @@ package com.program.part7;
 
 import java.util.ArrayList;
 
-public class list4 {
+public class list04 {
     public int[] findCommonParts(ListNode headA, ListNode headB) {
     	if(headA == null || headB == null){
     		return null;

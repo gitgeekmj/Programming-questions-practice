@@ -2,7 +2,7 @@ package com.program.part7;
 
 import java.util.ArrayList;
 
-public class list7 {
+public class list07 {
 	public static void main(String[] args) {
 			ListNode l1 = new ListNode(1);
 			ListNode l2 = new ListNode(2);
@@ -19,7 +19,7 @@ public class list7 {
 			l5.next = l6;
 			l6.next = l7;
 			l7.next = l8;
-			list7 list = new list7();
+			list07 list = new list07();
 			list.isPalindrome(l1);
 	}
     public boolean isPalindrome(ListNode pHead) {
