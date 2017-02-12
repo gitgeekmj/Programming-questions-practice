@@ -1,12 +1,7 @@
 package com.program.part8;
 
-public class rank05 {
-	/**
-	 * 后面均为卡特兰数问题
-	 * @param n
-	 * @return
-	 */
-    public int countLegalWays(int n) {
+public class rank07 {
+    public int countWays(int n) {
         int res1 = 1;
         int res2 = 1;
         for(int i = 2*n; i > n; i--){
